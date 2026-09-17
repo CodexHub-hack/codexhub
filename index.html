@@ -1,11 +1,47 @@
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Employee Registration</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+
+    <div class="container">
+
+        <h1>vaxguard365</h1>
+
+        <form id="employeeForm">
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" placeholder="Enter your name">
+
+            <small id="nameError"></small>
+
+            <label for="surname">Surname:</label>
+            <input type="text" id="surname" placeholder="Enter your surname">
+
+            <small id="surnameError"></small>
+
+            <label for="employeeNumber">Employee Number:</label>
+            <input type="text" id="employeeNumber" placeholder="Enter employee number">
+
+            <small id="employeeNumberError"></small>
+
+            <button type="submit">Submit</button>
+
+        </form>
+
+        <p id="successMessage"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
+```
